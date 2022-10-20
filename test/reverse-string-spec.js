@@ -1,9 +1,6 @@
 // Your code here
-
-
-const chai = require('chai');
+const chai = require('chai'); // alt: const { expect } = require('chai')
 const expect = chai.expect;
-
 const reverseString = require('../problems/reverse-string.js');
 
 describe(`reverseString`, function() {
